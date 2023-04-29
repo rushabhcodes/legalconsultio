@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 import Practice from '@/components/Practice'
 import BankingPartners from '@/components/BankingPartners'
 import Intern from '@/components/Intern'
-import MyModal from '@/components/Modal'
+import MyModal from '@/components/Practice'
 
 const inter = Inter({ subsets: ['latin'] })
 

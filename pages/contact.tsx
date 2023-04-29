@@ -12,15 +12,15 @@ const contact = () => {
         </h1>
       </div>
       <div className="flex justify-center">
-        <h1 className="font-bold text-4xl mt-5 px-5">How would you like to connect with us?</h1>
+        <h1 className="font-bold text-4xl mt-10 px-10">How would you like to connect with us?</h1>
       </div>
       {/* a responsive grid of cards with neomorphic design which has icons on location, hone, whatsapp and email, hover and click effects on cards, also add some padding above and below the grid */}
-      <div className="flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-10 py-10">
+      <div className="flex justify-center pt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-10 py-10">
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
               <img
-                className="h-32 w-32 mt-5"
+                className="h-20 w-20 mt-5"
                 src="/icons/contact-meeting.png"
                 alt="Meeting Image"
               />
@@ -33,15 +33,13 @@ const contact = () => {
                 <p>B/109, Saras Capital,</p>
                 <p>Opp. Axis Bank,</p>
                 <p>Dahanu, Tal-Dahanu</p>
-                <p>Dist- Palghar</p>
-                <p>Pincode- 401602</p>
               </div>
             </div>
           </div>
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
               <img
-                className="h-32 w-32 mt-5"
+                className="h-20 w-20 mt-5"
                 src="/icons/contact-phone.png"
                 alt="Phone Image"
               />
@@ -59,7 +57,7 @@ const contact = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
               <img
-                className="h-32 w-32 mt-5"
+                className="h-20 w-20 mt-5"
                 src="/icons/contact-whatsapp.png"
                 alt="Whatsapp Image"
               />
@@ -77,7 +75,7 @@ const contact = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
               <img
-                className="h-32 w-32 mt-5"
+                className="h-20 w-20 mt-5"
                 src="/icons/contact-email.png"
                 alt="Email Image"
               />
