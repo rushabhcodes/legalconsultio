@@ -66,12 +66,11 @@ export default function BankingModal() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Payment successful
+                   Banking And Finance
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
+                    The Banking Regulation Act, 1949 is a legislation in India that regulates all banking firms in India. Passed as the Banking Companies Act 1949, it came into force from 16 March 1949 and changed to Banking Regulation Act 1949 from 1 March 1966. It is applicable in Jammu and Kashmir from 1956. Initially, the law was applicable only to banking companies. But, in 1965 it was amended to make it applicable to cooperative banks and to introduce other changes. In 2020 it was amended to bring the cooperative banks under the supervision of the Reserve Bank of India.
                     </p>
                   </div>
 

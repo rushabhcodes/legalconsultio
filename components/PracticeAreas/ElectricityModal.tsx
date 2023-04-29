@@ -65,7 +65,7 @@ export default function ElectricityModal() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                    Payment successful
+                    Electricity
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
