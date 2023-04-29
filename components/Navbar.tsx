@@ -74,7 +74,7 @@ const Navbar = () => {
                       whileHover={{ scale: 1.2 }}
                       whileTap={{ scale: 0.8 }}
                     >
-                      <Link href="/div">DV</Link>
+                      <Link href="/DV">DV</Link>
                     </motion.div>
                   </div>
                   <div style={{
