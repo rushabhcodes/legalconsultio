@@ -21,7 +21,7 @@ export default function App() {
         centeredSlides={true}
         effect={"fade"}
         autoplay={{
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={{

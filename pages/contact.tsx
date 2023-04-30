@@ -90,6 +90,11 @@ const contact = () => {
               </p>
             </div>
           </div>
+          <iframe
+              src="https://indiankanoon.org/doc/97675329/"
+              className="h-auto w-auto rounded shadow-white shadow-2xl"
+              loading="lazy"
+            ></iframe>
         </div>
       </div>
 

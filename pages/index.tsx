@@ -3,14 +3,15 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/Navbar'
 import BackgroundSlider from '@/components/BackgroundSlider'
 import Footer from '@/components/Footer'
-import Practice from '@/components/Practice'
 import BankingPartners from '@/components/BankingPartners'
 import Intern from '@/components/Intern'
 import MyModal from '@/components/Practice'
+import SearchBar from '@/components/Search'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({data}: {data: any}) {
+  console.log(data)
   return (
     <main>
     <Navbar />
