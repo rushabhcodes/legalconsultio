@@ -11,7 +11,9 @@ const about = () => {
           About Us
         </h1>
       </div>
-
+      <div className>Our Founders</div>
+<div className="grid grid-cols-2">
+  <div>
        {/* Desigination of founder */}
        <div className="flex justify-center">
         <h1 className="font-bold text-4xl mt-5">Founder</h1>
@@ -30,8 +32,9 @@ const about = () => {
       <div className="flex justify-center">
         <h1 className="font-semibold text-3xl">Mr. John Doe</h1>
       </div>
+      </div>
 
-
+<div>
       {/* Desigination of co-founder */}
       <div className="flex justify-center">
         <h1 className="font-bold text-4xl mt-10">Co-Founder</h1>
@@ -50,6 +53,54 @@ const about = () => {
       <div className="flex justify-center">
         <h1 className="font-semibold text-3xl">Mr. Jane Doe</h1>
       </div>
+      </div>
+      </div>
+
+<div className="">Our Team</div>
+      <div className="grid grid-cols-2">
+  <div>
+       {/* Desigination of founder */}
+       <div className="flex justify-center">
+        <h1 className="font-bold text-4xl mt-5">Founder</h1>
+      </div>
+      
+      {/* Image  of founder */}
+      <div className="flex justify-center">
+        <img
+          className="rounded-full h-96 w-96"
+          src="https://thumbs.dreamstime.com/b/flat-male-avatar-image-beard-hairstyle-businessman-profile-icon-vector-179285629.jpg"
+          alt="Founder Image"
+        />
+      </div>
+
+      {/* Name of founder */}
+      <div className="flex justify-center">
+        <h1 className="font-semibold text-3xl">Mr. John Doe</h1>
+      </div>
+      </div>
+
+<div>
+      {/* Desigination of co-founder */}
+      <div className="flex justify-center">
+        <h1 className="font-bold text-4xl mt-10">Co-Founder</h1>
+      </div>
+
+      {/* Image of co-founder */}
+      <div className="flex justify-center">
+        <img
+          className="rounded-full h-96 w-96"
+          src="https://static.vecteezy.com/system/resources/previews/006/735/770/original/beautiful-woman-avatar-profile-icon-vector.jpg"
+          alt="Co-Founder Image"
+        />
+      </div>
+
+      {/* Name of co-founder */}
+      <div className="flex justify-center">
+        <h1 className="font-semibold text-3xl">Mr. Jane Doe</h1>
+      </div>
+      </div>
+      </div>
+      
 
       {/* description */}
       <div className="flex justify-center">
