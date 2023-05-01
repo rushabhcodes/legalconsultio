@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -29,7 +29,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        className="mySwiper "
+        className="mySwiper"
       >
         <SwiperSlide>
           <div className=" bg-slider_1 flex h-screen bg-cover bg-no-repeat ">

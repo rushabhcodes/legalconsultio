@@ -8,9 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'slider_1' : "url('/sliderImages/slider (1).jpg')",
-        'slider_2' : "url('/sliderImages/slider (2).jpg')",
-        'slider_3' : "url('/sliderImages/slider (3).jpg')",
+        slider_1 : "url('/sliderImages/slider_1.jpg')",
+        slider_2 : "url('/sliderImages/slider_2.jpg')",
+        slider_3 : "url('/sliderImages/slider_3.jpg')",
         'about': "url('/images/about.webp')",
         'court' : "url('/images/court.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
