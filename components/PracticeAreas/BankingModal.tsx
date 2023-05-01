@@ -1,45 +1,48 @@
-import { Dialog, Transition } from '@headlessui/react'
-import { motion } from 'framer-motion'
-import { Fragment, useState } from 'react'
-import Image from 'next/image'
+import { Dialog, Transition } from "@headlessui/react";
+import { motion } from "framer-motion";
+import { Fragment, useState } from "react";
+import Image from "next/image";
 
 export default function BankingModal() {
-  let [isOpen, setIsOpen] = useState(false)
+  let [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
+    setIsOpen(true);
   }
 
   return (
     <>
-        <div className="border-solid shadow-2xl border-black  text-center p-10 rounded">
-            <div className="items-center">
-              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-                  <Image
-                    className="mx-auto h-32"
-                    src="/images/bankingAndFinance.png"
-                    alt="Banking and Finance Image"
-                    width={128}
-                    height={128}
-                  />
-              </motion.div>
-            </div>
+      <div className="border-solid shadow-2xl border-black  text-center p-10 rounded">
+        <div className="items-center">
+          <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+            <Image
+              className="mx-auto h-32"
+              src="/images/bankingAndFinance.png"
+              alt="Banking and Finance Image"
+              width={128}
+              height={128}
+            />
+          </motion.div>
+        </div>
 
-            <h1 className="text-center font-bold text-3xl py-5">
-              Banking And Finance
-            </h1>
+        <h1 className="text-center font-bold text-3xl py-5">
+          Banking And Finance
+        </h1>
 
-            <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-                <button onClick={openModal} className="bg-gray-600 text-white p-4 font-semibold border-dotted border-black rounded py-3 hover:bg-gray-400">
-                  Know More
-                </button>
-            </motion.div>
-          </div>
-          <Transition appear show={isOpen} as={Fragment}>
+        <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+          <button
+            onClick={openModal}
+            className="bg-gray-600 text-white p-4 font-semibold border-dotted border-black rounded py-3 hover:bg-gray-400"
+          >
+            Know More
+          </button>
+        </motion.div>
+      </div>
+      <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
@@ -69,11 +72,20 @@ export default function BankingModal() {
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
                   >
-                   Banking And Finance
+                    Banking And Finance
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">
-                    The Banking Regulation Act, 1949 is a legislation in India that regulates all banking firms in India. Passed as the Banking Companies Act 1949, it came into force from 16 March 1949 and changed to Banking Regulation Act 1949 from 1 March 1966. It is applicable in Jammu and Kashmir from 1956. Initially, the law was applicable only to banking companies. But, in 1965 it was amended to make it applicable to cooperative banks and to introduce other changes. In 2020 it was amended to bring the cooperative banks under the supervision of the Reserve Bank of India.
+                      The Banking Regulation Act, 1949 is a legislation in India
+                      that regulates all banking firms in India. Passed as the
+                      Banking Companies Act 1949, it came into force from 16
+                      March 1949 and changed to Banking Regulation Act 1949 from
+                      1 March 1966. It is applicable in Jammu and Kashmir from
+                      1956. Initially, the law was applicable only to banking
+                      companies. But, in 1965 it was amended to make it
+                      applicable to cooperative banks and to introduce other
+                      changes. In 2020 it was amended to bring the cooperative
+                      banks under the supervision of the Reserve Bank of India.
                     </p>
                   </div>
 
@@ -93,5 +105,5 @@ export default function BankingModal() {
         </Dialog>
       </Transition>
     </>
-  )
+  );
 }

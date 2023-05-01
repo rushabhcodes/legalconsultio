@@ -17,14 +17,21 @@ export default function Intern() {
   }
   return (
     <>
-      <h1 className="text-center font-semibold text-4xl p-10 bg-slate-200">Interships</h1>
+      <h1 className="text-center font-semibold text-4xl p-10 bg-slate-200">
+        Interships
+      </h1>
 
       <h2 className="text-center font-semibold text-2xl p-5 mt-5">
         Want to be an Intern?
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-20 lg:gap-16 p-10">
         <div>
-          <Image src="/images/intern.jpg" alt="Intern Image" width={800} height={800} />
+          <Image
+            src="/images/intern.jpg"
+            alt="Intern Image"
+            width={800}
+            height={800}
+          />
         </div>
         <div className="p">
           <p className="text-xl py-10">
