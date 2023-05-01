@@ -1,5 +1,6 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { Fragment, useState } from 'react'
 
 export default function CriminalModal() {
@@ -18,10 +19,12 @@ export default function CriminalModal() {
         <div className="border-solid shadow-2xl border-black  text-center p-10 rounded">
             <div className="items-center">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-                  <img
+                  <Image
                     className="mx-auto h-32"
-                    src="\images\criminal.png"
+                    src="/images/criminal.png"
                     alt="Civil Image"
+                    width={128}
+                    height={128}
                   />
               </motion.div>
             </div>

@@ -1,10 +1,11 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { motion } from "framer-motion";
-import { Fragment, useState, useRef} from "react";
+import Image from "next/image";
+import { Fragment, useState, useRef } from "react";
 
 export default function CivilModal() {
   let [isOpen, setIsOpen] = useState(false);
-  let headRef = useRef(null)
+  let headRef = useRef(null);
 
   function closeModal() {
     setIsOpen(false);
@@ -19,10 +20,12 @@ export default function CivilModal() {
       <div className="border-solid shadow-2xl border-black  text-center p-10 rounded">
         <div className="items-center">
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-            <img
+            <Image
               className="mx-auto h-32"
-              src="\images\civil.png"
+              src="/images/civil.png"
               alt="Civil Image"
+              width={128}
+              height={128}
             />
           </motion.div>
         </div>
@@ -39,7 +42,12 @@ export default function CivilModal() {
         </motion.div>
       </div>
       <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal} initialFocus={headRef}>
+        <Dialog
+          as="div"
+          className="relative z-10"
+          onClose={closeModal}
+          initialFocus={headRef}
+        >
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -67,8 +75,8 @@ export default function CivilModal() {
                   <Dialog.Title
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
-                  ><h1 ref={headRef} > CIVIL </h1>
-                    
+                  >
+                    <h1 ref={headRef}> CIVIL </h1>
                   </Dialog.Title>
                   <div className="mt-2">
                     <p className="text-sm text-gray-500">

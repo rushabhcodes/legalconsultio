@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import Image from "next/image";
 import React from "react";
 
 const contact = () => {
@@ -19,10 +20,12 @@ const contact = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 px-10 py-10">
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
-              <img
-                className="h-20 w-20 mt-5"
+              <Image
+                className="mt-5"
                 src="/icons/contact-meeting.png"
                 alt="Meeting Image"
+                width={80}
+                height={80}
               />
             </div>
             <div className="flex justify-center">
@@ -38,10 +41,12 @@ const contact = () => {
           </div>
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
-              <img
-                className="h-20 w-20 mt-5"
+              <Image
+                className="mt-5"
                 src="/icons/contact-phone.png"
                 alt="Phone Image"
+                width={80}
+                height={80}
               />
             </div>
             <div className="flex justify-center">
@@ -56,10 +61,12 @@ const contact = () => {
           </div>
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
-              <img
-                className="h-20 w-20 mt-5"
+              <Image
+                className="mt-5"
                 src="/icons/contact-whatsapp.png"
                 alt="Whatsapp Image"
+                width={80}
+                height={80}
               />
             </div>
             <div className="flex justify-center">
@@ -74,10 +81,12 @@ const contact = () => {
           </div>
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transform hover:-translate-y-1 hover:scale-110 transition duration-500">
             <div className="flex justify-center">
-              <img
-                className="h-20 w-20 mt-5"
+              <Image
+                className="mt-5"
                 src="/icons/contact-email.png"
                 alt="Email Image"
+                width={80}
+                height={80}
               />
             </div>
             <div className="flex justify-center">

@@ -19,7 +19,7 @@ const dv = () => {
       
       {DV.map(DV => {
         return (
-          <div className="flex justify-center">
+          <div className="flex justify-center"  key={DV.id}>
             <div className="max-w-screen-xl bg-white rounded-xl shadow-xl p-10 m-10">
               <div className="flex justify-center">
                 <h1 className="font-bold text-4xl">{DV.title}</h1>

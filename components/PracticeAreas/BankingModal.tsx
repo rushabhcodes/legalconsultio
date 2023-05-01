@@ -1,6 +1,7 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { motion } from 'framer-motion'
 import { Fragment, useState } from 'react'
+import Image from 'next/image'
 
 export default function BankingModal() {
   let [isOpen, setIsOpen] = useState(false)
@@ -18,10 +19,12 @@ export default function BankingModal() {
         <div className="border-solid shadow-2xl border-black  text-center p-10 rounded">
             <div className="items-center">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-                  <img
+                  <Image
                     className="mx-auto h-32"
-                    src="\images\bankingAndFinance.png"
+                    src="/images/bankingAndFinance.png"
                     alt="Banking and Finance Image"
+                    width={128}
+                    height={128}
                   />
               </motion.div>
             </div>
