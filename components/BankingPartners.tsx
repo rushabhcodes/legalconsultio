@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
+import kotak from '../public/logos/Kotak_Mahindra_Bank_logo.png'
+import axis from '../public/logos/Axis_Bank_logo.png'
 
 const BankingPartners = () => {
   return (
@@ -11,7 +13,7 @@ const BankingPartners = () => {
         <Link href={"https://www.kotak.com/en/home.html"}><motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className='shadow-lg shadow-black p-5 rounded-md '><h3 className='text-center'></h3>
         <Image
                 className=" overflow-auto"
-                src="/logos/Kotak_Mahindra_Bank_logo.png"
+                src={kotak}
                 alt="Kotak Mahindra Bank logo"
                 width={500}
                 height={500}
@@ -22,7 +24,7 @@ const BankingPartners = () => {
         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} className=' shadow-lg shadow-black p-5 rounded-md'><h3 className='text-center'></h3>
         <Image
                 className="overflow-auto mt-5"
-                src="/logos/Axis_Bank_logo.png"
+                src={axis}
                 alt="Axis Bank logo"
                 width={500}
                 height={500}
