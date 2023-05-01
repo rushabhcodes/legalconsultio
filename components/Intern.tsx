@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 export default function Intern() {
   let [isOpen, setIsOpen] = useState(false);
@@ -21,9 +22,9 @@ export default function Intern() {
       <h2 className="text-center font-semibold text-2xl p-5 mt-5">
         Want to be an Intern?
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-20 lg:gap-16 p-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-20 lg:gap-16 p-10">
         <div>
-          <img src="/images/intern.jpg" alt="" />
+          <Image src="/images/intern.jpg" alt="Intern Image" width={800} height={800} />
         </div>
         <div className="p">
           <p className="text-xl py-10">
@@ -88,10 +89,12 @@ export default function Intern() {
                       >
                         <Link href={"https://wa.me/+919764934519"}>
                           <div className="flex flex-col justify-center items-center content-center">
-                            <img
+                            <Image
                               className="h-10 w-10"
                               src="/icons/contact-whatsapp.png"
                               alt="Whatsapp Image"
+                              height={40}
+                              width={40}
                             />
                             <h1>Whatsapp</h1>
                           </div>
@@ -105,10 +108,12 @@ export default function Intern() {
                       >
                         <Link href={"mailto:harshmail432004@gmail.com"}>
                           <div className="flex flex-col justify-center items-center">
-                            <img
+                            <Image
                               className="h-10 w-10"
                               src="/icons/contact-email.png"
                               alt="Email Image"
+                              height={40}
+                              width={40}
                             />
                             <h1>Mail</h1>
                           </div>

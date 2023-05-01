@@ -83,7 +83,6 @@ function AboutPage({ data }: { data: PostsData }) {
           About Us
         </h1>
       </div>
-<<<<<<< Updated upstream
       <div className="flex justify-center pt-10">
         <h1 className="font-bold text-center text-6xl p-10 pb-10">
           The Founders
@@ -146,33 +145,6 @@ function AboutPage({ data }: { data: PostsData }) {
         <h1 className="font-bold text-center text-6xl p-10 pb-10">
           Our Interns
         </h1>
-=======
-
-
-      {/* description */}
-      <div className="flex justify-center">
-        <p className="text-center font-semibold text-2xl p-5 mt-5  px-5 lg:px-40">
-          We are a team of lawyers who are here to help you with your legal
-          queries. We have a team of lawyers who are experts in their fields and
-          are here to help you with your legal issues. We are here to help you
-          with your legal issues and queries.
-        </p>
-      </div>
-
-      <div>
-        <p className="text-center font-semibold text-xl p-5 mt-5 px-5 lg:px-40">
-          While you are facing any sort of a legal questioning, you must not be
-          aware from where to start your journey from. Indeed it is a daunting
-          task to evaluate the legal issues along with choosing the perfect
-          lawyer to handle your legal things as per your requirements. Searching
-          for a lawyer is an easy task but searching for the RIGHT LAWYER is
-          what we can serve you right here to give you the One Stop Solution
-          with our team of experts. We here at Dahanu Lawyers are right here to
-          assist you with your personal and your financial stakes. Be it
-          corporate or the general clients, since it is not that easy to gather
-          the facts we help you out with every bit of it.
-        </p>
->>>>>>> Stashed changes
       </div>
       {interns.map((person) => (
         <div key={person.name}>
