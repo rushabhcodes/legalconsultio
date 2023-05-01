@@ -2,6 +2,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Fragment, useState, useRef } from "react";
+import civil from "../../public/images/civil.png";
 
 export default function CivilModal() {
   let [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ export default function CivilModal() {
           <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
             <Image
               className="mx-auto h-32"
-              src="/images/civil.png"
+              src={civil}
               alt="Civil Image"
               width={128}
               height={128}

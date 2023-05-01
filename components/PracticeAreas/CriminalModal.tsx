@@ -2,6 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Fragment, useState } from 'react'
+import criminal from '../../public/images/criminal.png'
 
 export default function CriminalModal() {
   let [isOpen, setIsOpen] = useState(false)
@@ -21,8 +22,8 @@ export default function CriminalModal() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                   <Image
                     className="mx-auto h-32"
-                    src="/images/criminal.png"
-                    alt="Civil Image"
+                    src={criminal}
+                    alt="Criminal Image"
                     width={128}
                     height={128}
                   />

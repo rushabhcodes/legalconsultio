@@ -2,6 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { Fragment, useState } from 'react'
+import electricity from '../../public/images/electricity.png'
 
 export default function ElectricityModal() {
   let [isOpen, setIsOpen] = useState(false)
@@ -21,7 +22,7 @@ export default function ElectricityModal() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                   <Image
                     className="mx-auto h-32"
-                    src="/images/electricity.png"
+                    src={electricity}
                     alt="Electricity Image"
                     width={128}
                     height={128}

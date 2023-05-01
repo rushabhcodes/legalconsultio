@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        slider_1 : "url('/sliderImages/slider_1.jpg')",
-        slider_2 : "url('/sliderImages/slider_2.jpg')",
-        slider_3 : "url('/sliderImages/slider_3.jpg')",
-        'about': "url('/images/about.webp')",
-        'court' : "url('/images/court.jpg')",
+        slider_1 : "url('../public/sliderImages/slider_1.jpg')",
+        slider_2 : "url('../public/sliderImages/slider_2.jpg')",
+        slider_3 : "url('../public/sliderImages/slider_3.jpg')",
+        'about': "url('../public/images/about.webp')",
+        'court' : "url('../public/images/court.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

@@ -4,6 +4,7 @@ import { Fragment, useState } from "react";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import intern from "../public/images/intern.jpg";
 
 export default function Intern() {
   let [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ export default function Intern() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-20 lg:gap-16 p-10">
         <div>
           <Image
-            src="/images/intern.jpg"
+            src={intern}
             alt="Intern Image"
             width={800}
             height={800}
