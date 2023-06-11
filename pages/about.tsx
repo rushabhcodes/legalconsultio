@@ -3,6 +3,7 @@ import Image from "next/image";
 import { request, gql } from "graphql-request";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import parse from "html-react-parser";
 
 interface Person {
   name: string;
@@ -104,9 +105,7 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
               <p className="text-gray-700 text-base pr-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+                {parse(person.content.html)}
               </p>
             </div>
           </div>
@@ -132,9 +131,7 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
               <p className="text-gray-700 text-base pr-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+              {parse(person.content.html)}
               </p>
             </div>
           </div>
@@ -161,9 +158,7 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
               <p className="text-gray-700 text-base pr-12">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
+              {parse(person.content.html)}
               </p>
             </div>
           </div>

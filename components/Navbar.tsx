@@ -121,7 +121,7 @@ const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4">
+            <li>
               <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
@@ -130,7 +130,7 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </motion.div>
             </li>
-            <li className="p-4">
+            <li>
               <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
@@ -139,7 +139,7 @@ const Navbar = () => {
                 <Link href="/courtAndForums">Court and Forums</Link>
               </motion.div>
             </li>
-            <li className="p-4">
+            <li>
               <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
@@ -148,7 +148,7 @@ const Navbar = () => {
                 <Link href="/articles">Articles</Link>
               </motion.div>
             </li>
-            <li className="p-4">
+            <li >
               <motion.div
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.8 }}
@@ -165,6 +165,42 @@ const Navbar = () => {
               >
                 <Link href="/contact">Contact Us</Link>
               </motion.div>
+            </li>
+            <li>
+            <Popover className="relative">
+              <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+                <Popover.Button>
+                  <div className="text-2xl"><p> {'>'} Judgement</p></div>
+                </Popover.Button>
+              </motion.div>
+              <Popover.Panel className="absolute z-10 left-14">
+                <div className="p-5"></div>
+                <div className="justify-center border border-black">
+                  <div style={{
+        backgroundColor: `${color}`,
+        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+      }} className="bg-black pt-2 py-2 px-12">
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <Link href="/DV">DV</Link>
+                    </motion.div>
+                  </div>
+                  <div style={{
+        backgroundColor: `${color}`,
+        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+      }} className="bg-black pb-2 py-2 px-12">
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <Link href="/curl">138</Link>
+                    </motion.div>
+                  </div>
+                </div>
+              </Popover.Panel>
+            </Popover>
             </li>
           </ul>
         </div>
