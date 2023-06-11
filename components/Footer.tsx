@@ -60,13 +60,12 @@ const Footer = () => {
               <h3 className="px-3">Instagram</h3>
             </div>
           </Link>
-          <Link href="https://wa.me/+919764934519">
-            <Link href={"https://wa.me/+919226706015"}>
-              <div className="flex justify-start p-2">
-                <FontAwesomeIcon className="py-2" icon={faWhatsapp} />
-                <h3 className="px-3">WhatsApp</h3>
-              </div>
-            </Link>
+
+          <Link href={"https://wa.me/+919226706015"}>
+            <div className="flex justify-start p-2">
+              <FontAwesomeIcon className="py-2" icon={faWhatsapp} />
+              <h3 className="px-3">WhatsApp</h3>
+            </div>
           </Link>
         </div>
         {/* column 4 */}
