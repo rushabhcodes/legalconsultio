@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-import { faPhone,faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
-import{faInstagram, faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,9 +12,9 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 bg-black text-white p-4">
         {/* column 1 */}
         <div className="flex flex-col">
-          <h1 className="font-bold text-2xl">LOGO</h1>
+          <h1 className="font-bold text-2xl">Office</h1>
           <p className="my-4">
-          <span className="text-bold text-xl">Your Fight Is Our Fight</span>
+            <span className="text-bold text-xl">Your Fight Is Our Fight</span>
           </p>
           <div className="flex justify-start p-2">
             <FontAwesomeIcon className="h-8 pt-1" icon={faPhone} />
@@ -46,9 +46,6 @@ const Footer = () => {
             <Link href="/about">
               <h3 className="p-2 hover:underline-offset-1">&#62; About</h3>
             </Link>
-            <Link href="/intern">
-              <h3 className="p-2 hover:underline-offset-1">&#62; Internship</h3>
-            </Link>
             <Link href="/contact">
               <h3 className="p-2 hover:underline-offset-1">&#62; Contact</h3>
             </Link>
@@ -56,15 +53,21 @@ const Footer = () => {
         </div>
         {/* column 3 */}
         <div className="flex flex-col">
-          <h1 className="font-bold text-2xl">Ssocial Media</h1>
-          <div className="flex justify-start p-2 pt-4">
-          <FontAwesomeIcon className="py-2" icon={faInstagram} />
-            <h3 className="px-3">Instagram</h3>
-          </div>
-          <div className="flex justify-start p-2">
-          <FontAwesomeIcon className="py-2" icon={faWhatsapp} />
-            <h3 className="px-3">WhatsApp</h3>
-          </div>
+          <h1 className="font-bold text-2xl">Social Media</h1>
+          <Link href={"https://google.com"}>
+            <div className="flex justify-start p-2 pt-4">
+              <FontAwesomeIcon className="py-2" icon={faInstagram} />
+              <h3 className="px-3">Instagram</h3>
+            </div>
+          </Link>
+          <Link href="https://wa.me/+919764934519">
+            <Link href={"https://wa.me/+919226706015"}>
+              <div className="flex justify-start p-2">
+                <FontAwesomeIcon className="py-2" icon={faWhatsapp} />
+                <h3 className="px-3">WhatsApp</h3>
+              </div>
+            </Link>
+          </Link>
         </div>
         {/* column 4 */}
         <div className="flex flex-col">
@@ -72,8 +75,12 @@ const Footer = () => {
           <ul className="my-4">
             <li className="py-1 hover:underline">Who am I? </li>
             <li className="py-1 hover:underline">Why am I here?</li>
-            <li className="py-1 hover:underline">What is the meaning of life?</li>
-            <li className="py-1 hover:underline">What is the answer to the life the universe and everything?</li>
+            <li className="py-1 hover:underline">
+              What is the meaning of life?
+            </li>
+            <li className="py-1 hover:underline">
+              What is the answer to the life the universe and everything?
+            </li>
           </ul>
         </div>
         {/* column 5 */}
@@ -82,7 +89,7 @@ const Footer = () => {
 
           <div className="flex justify-center mb-10">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d937.3028960876545!2d72.72285858271988!3d19.99963258919133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1681528758446!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.3407333184006!2d72.74118393818598!3d19.98954677793644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be727b540dbd845%3A0x2ace4b33fd05cf1f!2sAdv%20Prakash%20Thakkar!5e0!3m2!1sen!2sin!4v1686458000111!5m2!1sen!2sin"
               className="h-60 w-60 rounded shadow-white shadow-2xl"
               loading="lazy"
             ></iframe>

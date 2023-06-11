@@ -65,16 +65,15 @@ export default function FamilyModal() {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <Dialog.Title
+                <Dialog.Title
                     as="h3"
-                    className="text-lg font-medium leading-6 text-gray-900"
+                    className="text-2xl font-medium leading-6 text-gray-900"
                   >
                     Family
                   </Dialog.Title>
-                  <div className="mt-2">
-                    <p className="text-sm text-gray-500">
-                      Your payment has been successfully submitted. We’ve sent
-                      you an email with all of the details of your order.
+                  <div className="mt-4">
+                    <p className="text-xl text-gray-500">
+                    Family laws are an important stream of Indian laws that delivers justice to each and every Indian on the basis of his religion. There are 3 major branches of family laws in India- Hindu Laws, Christian laws and Muslim laws. These laws are very closely related to personal disputes including guardianship, marriage, divorce, inheritance and adoption of children.
                     </p>
                   </div>
 

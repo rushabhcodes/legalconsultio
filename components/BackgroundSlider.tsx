@@ -34,23 +34,24 @@ export default function App() {
         <SwiperSlide>
           <div className=" bg-slider_1 flex h-screen bg-cover bg-no-repeat ">
             <div>
-              <motion.h1 
-              initial="hidden"
-              animate="visible"
-              variants={{
-                hidden: {
-                  scale: 0.8,
-                  opacity: 0,
-                },
-                visible: {
-                  scale: 1,
-                  opacity: 1,
-                  transition: {
-                    delay: .4,
+              <motion.h1
+                initial="hidden"
+                animate="visible"
+                variants={{
+                  hidden: {
+                    scale: 0.8,
+                    opacity: 0,
                   },
-                },
-              }}
-              className="text-left  font-bold text-white text-4xl lg:text-5xl pt-52 pl-12">
+                  visible: {
+                    scale: 1,
+                    opacity: 1,
+                    transition: {
+                      delay: 0.4,
+                    },
+                  },
+                }}
+                className="text-left  font-bold text-white text-4xl lg:text-5xl pt-52 pl-12"
+              >
                 Welcome to{" "}
                 <span className="text-gray-950  lg:text-6xl  bg-white rounded bg-opacity-30">
                   legalconsultio.com
@@ -79,23 +80,17 @@ export default function App() {
           <div className=" bg-slider_3 flex h-screen bg-cover">
             <div className="">
               <h1 className="text-left text-4xl lg:text-5xl font-bold text-white pt-52 pl-12">
-                Free consulting for people residing in{" "}
+                Where{" "}
                 <span className="text-gray-950  lg:text-6xl  bg-white rounded bg-opacity-30">
-                  Dahanu
-                </span>
+                  Law
+                </span>{" "}
+                Meets{" "}
+                <span className="text-gray-950  lg:text-6xl  bg-white rounded bg-opacity-30">
+                  Results
+                </span>{" "}
+                - Trustworthy Advocacy for Your Legal Needs
               </h1>
               <p className={"text-3xl text-white py-6"}></p>
-              <motion.div
-                className="pl-12 w-fit h-fit"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.8 }}
-              >
-                <Link href="/">
-                  <button className="bg-gray-600 text-white p-7 lg:text-2xl font-semibold border-dotted border-black rounded py-3 hover:bg-gray-400">
-                    Know More
-                  </button>
-                </Link>
-              </motion.div>
             </div>
           </div>
         </SwiperSlide>
@@ -112,9 +107,9 @@ export default function App() {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.8 }}
               >
-                <Link href="/">
+                <Link href="/contact">
                   <button className="bg-gray-600 text-white p-7 lg:text-2xl font-semibold border-dotted border-black rounded py-3 hover:bg-gray-400">
-                    Enquire Now
+                    Contact Us
                   </button>
                 </Link>
               </motion.div>
