@@ -167,6 +167,6 @@ function AboutPage({ data }: { data: PostsData }) {
       <Footer />
     </>
   );
-}
+};
 
 export default AboutPage;

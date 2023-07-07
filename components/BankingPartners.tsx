@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import kotak from "../public/logos/Kotak_Mahindra_Bank_logo.png";
+import icici from "../public/logos/ICICI_Bank_Logo.png";
 import axis from "../public/logos/Axis_Bank_logo.png";
 
 const BankingPartners = () => {
@@ -15,7 +15,7 @@ const BankingPartners = () => {
       </div>
       <div className="grid lg:grid-cols-2 gap-10">
         <div>
-          <Link href={"https://www.kotak.com/en/home.html"}>
+          <Link href={"https://www.icicibank.com"}>
             <motion.div
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
@@ -23,7 +23,7 @@ const BankingPartners = () => {
             >
               <Image
                 className=" overflow-auto"
-                src={kotak}
+                src={icici}
                 alt="Kotak Mahindra Bank logo"
                 width={500}
                 height={500}
@@ -31,23 +31,24 @@ const BankingPartners = () => {
             </motion.div>
           </Link>
         </div>
-        <div>
-          <Link href={"https://www.axisbank.com/"}>
+        <div className="justify-center items-center">
+          <Link href={"https://www.icicibank.com"}>
             <motion.div
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
-              className="shadow-2xl p-10 m-16 rounded-md"
+              className="shadow-2xl p-10 m-16 mb-0 lg:mb-16 rounded-md"
             >
               <Image
-                className="overflow-auto"
+                className=" overflow-auto"
                 src={axis}
-                alt="Axis Bank Logo"
-                width={500}
-                height={500}
+                alt="Kotak Mahindra Bank logo"
+                width={350}
+                height={350}
               />
             </motion.div>
           </Link>
         </div>
+
       </div>
 
       {/* <div><h1 className='text-center font-semibold text-3xl p-10 bg-slate-200'>Our Banking Partners</h1></div>

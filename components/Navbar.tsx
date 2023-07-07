@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Image from "next/image";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -36,9 +37,13 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
-            LOGO
-          </h1>
+          <Image
+              src="/logos/Legalconsultio.png"
+              alt="Legalconsultio"
+              width={100}
+              height={100}
+              priority
+            />
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4">

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-import { faPhone, faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope, faHome, faClock } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 
@@ -12,10 +12,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 bg-black text-white p-4">
         {/* column 1 */}
         <div className="flex flex-col">
-          <h1 className="font-bold text-2xl">Office</h1>
-          <p className="my-4">
-            <span className="text-bold text-xl">Your Fight Is Our Fight</span>
-          </p>
+          <h1 className="font-bold text-2xl">Legalconsultio</h1>
           <div className="flex justify-start p-2">
             <FontAwesomeIcon className="h-8 pt-1" icon={faPhone} />
             <h3 className="px-3">+91 8149722555</h3>
@@ -27,13 +24,18 @@ const Footer = () => {
           <div className="flex justify-start p-2">
             <FontAwesomeIcon className="h-8 pt-1" icon={faHome} />
             <div className="flex flex-col">
-              <h5 className="px-3 pb-3"> Office Address</h5>
-              <h5 className="px-3">Besides, State Bank of India</h5>
+              <h5 className="px-3 pb-3">Office Address</h5>
               <h5 className="px-3">B/109,Saras Capital,</h5>
+              <h5 className="px-3">Besides, State Bank of India</h5>
               <h5 className="px-3">Opp. Axis Bank,</h5>
               <h5 className="px-3">Dahanu,Tal-Dahanu,</h5>
               <h5 className="px-3">Pin code: 401602</h5>
             </div>
+          </div>
+          <div className="flex justify-start p-2">
+            <FontAwesomeIcon className="h-8 pt-1" icon={faClock} />
+            <h3 className="px-3">Mon-Fri: 9:00AM to 7:00PM</h3>
+            <h3 className="px-3">Sat-Sun: 9:00AM to 12:00PM</h3>
           </div>
         </div>
         {/* column 2 */}
@@ -61,7 +63,7 @@ const Footer = () => {
             </div>
           </Link>
 
-          <Link href={"https://wa.me/+919226706015"}>
+          <Link href={"https://wa.me/+918149722555"}>
             <div className="flex justify-start p-2">
               <FontAwesomeIcon className="py-2" icon={faWhatsapp} />
               <h3 className="px-3">WhatsApp</h3>
