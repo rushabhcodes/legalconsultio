@@ -56,7 +56,7 @@ const Footer = () => {
         {/* column 3 */}
         <div className="flex flex-col">
           <h1 className="font-bold text-2xl">Social Media</h1>
-          <Link href={"https://google.com"}>
+          <Link href={"https://www.instagram.com/legalconsultio/?igshid=MzRlODBiNWFlZA%3D%3D"}>
             <div className="flex justify-start p-2 pt-4">
               <FontAwesomeIcon className="py-2" icon={faInstagram} />
               <h3 className="px-3">Instagram</h3>
@@ -73,16 +73,37 @@ const Footer = () => {
         {/* column 4 */}
         <div className="flex flex-col">
           <h1 className="font-bold text-2xl">FAQ</h1>
-          <ul className="my-4">
-            <li className="py-1 hover:underline">Who am I? </li>
-            <li className="py-1 hover:underline">Why am I here?</li>
+          <Link href="/faq">
+          <ul className="my-4 list-disc">
             <li className="py-1 hover:underline">
-              What is the meaning of life?
+              Is legalconsultio the right law firm for me? / Why should I trust your firm with my case?
             </li>
             <li className="py-1 hover:underline">
-              What is the answer to the life the universe and everything?
+              What types of cases does your law firm handle?
+            </li>
+            <li className="py-1 hover:underline">
+              Do I need to come into your office and meet you in person to retain you, or to receive legal services?
+            </li>
+            <li className="py-1 hover:underline">
+              What are your business hours?
+            </li>
+            <li className="py-1 hover:underline">
+              How can I become a client of your firm?
+            </li>
+            <li className="py-1 hover:underline">
+              What do I do when I have a question?
+            </li>
+            <li className="py-1 hover:underline">
+              What is expected of me as a client of your firm?
+            </li>
+            <li className="py-1 hover:underline">
+              How will I be kept informed of my case?
+            </li>
+            <li className="py-1 hover:underline">
+              What are your business hours?
             </li>
           </ul>
+          </Link>
         </div>
         {/* column 5 */}
         <div className="flex flex-col">
