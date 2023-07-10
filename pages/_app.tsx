@@ -40,8 +40,7 @@ function App({ Component, pageProps, router }: AppProps) {
       <div className={robotoSerif.className}>
         <Head>
           <title>Legal Consultio</title>
-          <meta name="The Law firm believes that the Indian Legal System is very
-                highly complex, yet there are some extremely simple solution." content="Free consulting for people residing in Dahanu." />
+          <meta name="Legalconsultio by Prakash Thakkar" content="Prakash Thakkar | Dahanu | Instant consultation anytime & anywhere. Consult the best Legal Minds in India" />
         </Head>
         <motion.div key={router.route} initial='pageInitial' animate='pageAnimate' variants={
           {

@@ -40,8 +40,8 @@ const Navbar = () => {
           <Image
               src="/logos/Legalconsultio.png"
               alt="Legalconsultio"
-              width={100}
-              height={100}
+              width={75}
+              height={75}
               priority
             />
         </Link>
@@ -90,7 +90,7 @@ const Navbar = () => {
                       whileHover={{ scale: 1.2 }}
                       whileTap={{ scale: 0.8 }}
                     >
-                      <Link href="/curl">138</Link>
+                      <Link href="/138">138</Link>
                     </motion.div>
                   </div>
                 </div>
@@ -200,7 +200,7 @@ const Navbar = () => {
                       whileHover={{ scale: 1.2 }}
                       whileTap={{ scale: 0.8 }}
                     >
-                      <Link href="/curl">138</Link>
+                      <Link href="/138">138</Link>
                     </motion.div>
                   </div>
                 </div>

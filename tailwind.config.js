@@ -11,7 +11,8 @@ module.exports = {
         slider_1 : "url('../public/sliderImages/slider_1.jpg')",
         slider_2 : "url('../public/sliderImages/slider_2.jpg')",
         slider_3 : "url('../public/sliderImages/slider_3.jpg')",
-        'about': "url('../public/images/about.webp')",
+        slider_4 : "url('../public/sliderImages/slider_4.jpg')",
+        'about' : "url('../public/images/about.jpg')",
         'court' : "url('../public/images/court.jpg')",
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

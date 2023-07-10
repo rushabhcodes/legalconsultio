@@ -79,9 +79,11 @@ function AboutPage({ data }: { data: PostsData }) {
   return (
     <>
       <Navbar />
-      <div className="max-w-screen bg-about bg-fixed bg-repeat-round h-80">
+      <div className="bg-cover h-96 rounded border bg-white bg-slider_4 bg-fixed bg-no-repeat">
         <h1 className="font-bold flex justify-center text-center align-middle pt-40 text-6xl">
-          About Us
+          <span className="text-gray-950  text-6xl bg-white px-2 bg-opacity-30">
+            About Us
+          </span>
         </h1>
       </div>
       <div className="flex justify-center pt-10">
