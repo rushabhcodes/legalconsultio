@@ -133,7 +133,7 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
               <p className="text-gray-700 text-base pr-12">
-              {parse(person.content.html)}
+                {parse(person.content.html)}
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
               <p className="text-gray-700 text-base pr-12">
-              {parse(person.content.html)}
+                {parse(person.content.html)}
               </p>
             </div>
           </div>
