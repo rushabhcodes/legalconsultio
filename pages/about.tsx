@@ -61,7 +61,7 @@ export const getStaticProps: GetStaticProps<{ data: PostsData }> = async () => {
   `;
 
   const data = await request<PostsData>(
-    "https://ap-south-1.cdn.hygraph.com/content/clh39efxt4w3q01um86kee6dq/master",
+    "https://ap-south-1.cdn.hygraph.com/content/cljxvfzxd128b01ukbs7ic4ex/master",
     query
   );
 
@@ -69,7 +69,7 @@ export const getStaticProps: GetStaticProps<{ data: PostsData }> = async () => {
     props: {
       data,
     },
-    revalidate: 60 * 60, // 1 hour
+    revalidate: 60 * 2, // 2 minutes
   };
 };
 
