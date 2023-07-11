@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 bg-black text-white p-4">
         {/* column 1 */}
         <div className="flex flex-col">
-          <h1 className="font-bold text-2xl">Legalconsultio</h1>
+          <h1 className="font-bold text-2xl">legalconsultio</h1>
           <div className="flex justify-start p-2">
             <FontAwesomeIcon className="h-8 pt-1" icon={faPhone} />
             <h3 className="px-3">+91 8149722555</h3>
@@ -44,6 +44,18 @@ const Footer = () => {
           <div className="py-4 flex-col text-xl">
             <Link href="/">
               <h3 className="p-2 hover:underline-offset-1">&#62; Home</h3>
+            </Link>
+            <Link href="/courtAndForums">
+              <h3 className="p-2 hover:underline-offset-1">&#62; Court And Forums</h3>
+            </Link>
+            <Link href="/articles">
+              <h3 className="p-2 hover:underline-offset-1">&#62; Articles</h3>
+            </Link>
+            <Link href="/dv">
+              <h3 className="p-2 hover:underline-offset-1">&#62; DV</h3>
+            </Link>
+            <Link href="/138">
+              <h3 className="p-2 hover:underline-offset-1">&#62; 138</h3>
             </Link>
             <Link href="/about">
               <h3 className="p-2 hover:underline-offset-1">&#62; About</h3>
