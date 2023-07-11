@@ -23,9 +23,7 @@ const courtAndForums = () => {
           benchmark by our professionals. Serving for various banks, financial
           organizations, multinational companies as well as our individual
           clients we have catered broad sector of law practices. Legislative or
-          regulatory laws, investments or partnership, aviation or maritime,
-          cyber laws or intellectual property rights, all have been well
-          practiced by the professional panel of Dahanu-Lawyers
+          regulatory laws, investments or partnerships, cyber laws or intellectual property rights, have been well practiced by the professional panel of Dahanu-Lawyers.
         </p>
 
         <h2 className="text-center text-2xl p-5 font-semibold  bg-black text-white font-serif">
