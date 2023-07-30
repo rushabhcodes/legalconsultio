@@ -86,35 +86,35 @@ const Footer = () => {
         <div className="flex flex-col">
           <h1 className="font-bold text-2xl">FAQ</h1>
           <Link href="/faq">
-          <ul className="my-4 list-disc">
-            <li className="py-1 hover:underline">
-              Is legalconsultio the right law firm for me? / Why should I trust your firm with my case?
-            </li>
-            <li className="py-1 hover:underline">
-              What types of cases does your law firm handle?
-            </li>
-            <li className="py-1 hover:underline">
-              Do I need to come into your office and meet you in person to retain you, or to receive legal services?
-            </li>
-            <li className="py-1 hover:underline">
-              What are your business hours?
-            </li>
-            <li className="py-1 hover:underline">
-              How can I become a client of your firm?
-            </li>
-            <li className="py-1 hover:underline">
-              What do I do when I have a question?
-            </li>
-            <li className="py-1 hover:underline">
-              What is expected of me as a client of your firm?
-            </li>
-            <li className="py-1 hover:underline">
-              How will I be kept informed of my case?
-            </li>
-            <li className="py-1 hover:underline">
-              What are your business hours?
-            </li>
-          </ul>
+            <ul className="my-4 list-disc">
+              <li className="py-1 hover:underline">
+                Is legalconsultio the right law firm for me? / Why should I trust your firm with my case?
+              </li>
+              <li className="py-1 hover:underline">
+                What types of cases does your law firm handle?
+              </li>
+              <li className="py-1 hover:underline">
+                Do I need to come into your office and meet you in person to retain you, or to receive legal services?
+              </li>
+              <li className="py-1 hover:underline">
+                What are your business hours?
+              </li>
+              <li className="py-1 hover:underline">
+                How can I become a client of your firm?
+              </li>
+              <li className="py-1 hover:underline">
+                What do I do when I have a question?
+              </li>
+              <li className="py-1 hover:underline">
+                What is expected of me as a client of your firm?
+              </li>
+              <li className="py-1 hover:underline">
+                How will I be kept informed of my case?
+              </li>
+              <li className="py-1 hover:underline">
+                What are your business hours?
+              </li>
+            </ul>
           </Link>
         </div>
         {/* column 5 */}
@@ -128,6 +128,16 @@ const Footer = () => {
               loading="lazy"
             ></iframe>
           </div>
+        </div>
+      </div>
+      <div className="bg-slate-950 text-gray-400">
+        <div className="flex justify-center">
+          Developed and managed by
+          <Link href="https://www.techstepsservices.com">
+            <h3 className="hover:underline">&nbsp;TechStepsServices</h3>
+          </Link>
+
+
         </div>
       </div>
     </footer>

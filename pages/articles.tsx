@@ -13,6 +13,90 @@ const articles = () => {
           </span>
         </h1>
       </div>
+
+      <div className="container mx-auto p-4">
+        <details className="bg-white shadow rounded group mb-4">
+          <summary className="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus:ring focus:ring-gray-600 rounded group-open:rounded-b-none group-open:z-[1] relative">
+            <h3 className="flex flex-1 p-4 font-bold justify-center">
+            EVIDENTIARY VALUE OF SECTION 65 (B) OF THE INDIAN EVIDENCE ACT, 1872.
+            </h3>
+            <div className="flex w-10 item-cenmter justify-center ">
+              <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
+            </div>
+          </summary>
+          <div className="px-40 pb-10 pt-6">
+            <p className="flex justify-center ">
+              
+              Defination-
+              Any matter which is expressed described on any substances by means of letters, figures or remark or by more than neary & which can be used for recording the matter is considered as a document".
+              <br />
+              The evidence which is confined to the words spoken by mouth is the oral evidence. If oral evidence is worthy of credit, it's sufficient to prove a fact or a title without any documentary evidence but where there forms need to supplement the contention with support of any material evidence which can be produced in court in form of else but statement, anything that is where the documentary evidence steps in.
+              <br />
+              Documentary evidence is in many respects considered
+              better than the evidence furnished by witnesses, about there has always been a certain amount of suspicion Documentary Evidence differs considerably from the evidence
+              of witnesses & is dealt with under special rules.
+              <br />
+              Introduction:
+              <br />
+              Section 65 (A) 465 (B) in the Indian Evidence Act, 1872 has been added by Information  Technology Act, 2000. Section 65(A) lays down the contents of electronic records may be proved with the provisions. laid down in the Section 65 (B), Sechon 65(B) (Admissibility. of electronice records) states that any Information contained in electronic records which is printed on a paper, stored, recorded or copied in optical or magnetic media produced by computer shall also be deemed to be a document if the conditions mentioned in this Section are satisfied in relation to the informaton & computer in question of shall be admissible in proceedings, without any further proof or production of the original.
+              The document produced before the court as evidence are the documentary evidence & there must primary or secondary evidence to prove the contents of the documents Digital evidence or electronic evidence is any probrative Information Stored or transmitted in digital form that a party to a court case may use at trial. Before accepting digital evidence a count will determine if the evidence is relevant, whether it is authentic, if it is hearsay & whether a copy is acceptable or the original is required.
+              <br />
+              Defining Electronic Evidence
+              <br />
+              As per section 3 of the Indian Evidence Act, 1872 defines evidence as "Evidence
+              <br />
+              means & includes: all documents including electronic records produced for the inspection of the court. Such documents are called documentary evidence.
+              <br />
+              As perSection 2 (t)  of the Information Technology Act, 2000. "Electronic record" means data, record, data generated, image or Sound stored, received or sent In an electronic form or micro film or computer generated micro fiche.
+              <br />
+              The condition of section 65(B):
+              <br />
+              Information was produced during the regular course of activitie by the person having or lawful control over the computer's use. Information has been regulaty fed into the computer in the ordinary course of said activities.
+              Throughout the material part of the said period, the computer was operating properly or the improper operation as not such as to affect the electronic record of the accuracy of its content. Information contained in the electronic records reproduces or is derived from such Information fed into the computer in the ordinary course of activities.
+              <br />
+              The Primary purpose is to sanctify proof by secondary. This facility of evidence proof by secondary evidence would apply to any computer, output, such output being deemed as a documen. A computer output is a deemed document for the purpose of Proof.
+              Where the information was processed or fed into the computer on inter linked computers or one computer after. the other in succession all the computers so used shall be treated as one single computer.
+              <br />
+              Sec. 65 B also lays down that for the purpose of evidence, Certificate identifying the electronic records containing Statement & describing the manner in which it was produced by a computer & the satisfying the conditions mentioned above & signed by a officer in charge of the operation or management of the related activities Shall be the evidence of any matter stated in the Certificate. It shall be sufficient for the matter to be stated to the best of the knowledge & belief of the person stating.
+              Any information to be taken to be supplied to a computer. if it is done in any appropriate form whether directly with or without hunan intervention by means of any appropriate equipment, or any information tois supplied by any official in the course of his activities with a view of storing or processing it even if he Computers being operated outside those activities.
+              <br /><br />
+              Case laws:
+              <br />
+              1.  Anvar P. V V/ P.K. Basheer
+              2014 (10) SCC 473.
+              <br />
+              2.  Sanjay sinh Ramnao Chavan V/s Dattatray Gulabrao Phalke & ors.
+              2015 (3) SCC 123
+              <br />
+              3.  Abdul Rahanan Kunji V/s State of Bengal
+              2016 Cr. L.J 1159.
+              <br />
+              4.  Vikram V/s state of Punjab.
+              2017 (8) SCC 518.
+              <br />
+              5.   Sony V/s State of Haryana.
+              2017 (8) SCC 570.
+              <br />
+              6. Shafhi Mohd. V/s State of U.P
+              2018 (1) SCC (Cri) 860.
+              <br />
+              7.    State of karnataka  Lokayukta Police Station, Bengaluru V/s Hiremath
+              <br />
+              (2019 SCC online (SC) 734.)
+              <br />
+              Conclusion:
+              <br />
+              The admissibility of the see
+              <br />
+              <br />
+              The admissibility of the Secondary electronic evidence has to be adjusted within the parameters of Section 65(B) of the Evidence Act & the Proportion is clear & explicit that if the secondary electronic evidence is without a certificate u/s 65(B) of Indian Evidence  Act, it is not admissible & any opinion of the forensic expert & the deposition of the witness in the court of law cannot be looked into by the court. However there are court few which are still unresolved as what would be the fate of the
+              secondary electronic evidence seized from the accused. Wherein the certificate u/s 65(B) & the Indian Evidence Act cannot be taken & the accused cannot be made witness against himself (OR) No person accused of any offence shall be compelled to be a witness against himself.
+              <br />
+            </p>
+          </div>
+        </details>
+      </div>
+
       <div className="container mx-auto p-4">
         <details className="bg-white shadow rounded group mb-4">
           <summary className="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus:ring focus:ring-gray-600 rounded group-open:rounded-b-none group-open:z-[1] relative">
@@ -23,7 +107,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               There are many laws in India. These can be divided into
               constitutional law, civil law, criminal law, family law, patents
@@ -148,7 +232,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               The cases filed at the CAW cell or the SPUWAC are not
               one-dimensional, which is to say that they do not have only one
@@ -244,7 +328,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Many wives make 498a complaints. There are many types of wives who
               make the complaints in the police departmentscalled SPUWAC or CAW
@@ -448,7 +532,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br /> There are many types of husbands who get 498a complaints
               made against them. Some of them are criminals who deserve to go to
@@ -520,7 +604,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Most of the questions that men who are accused of dowry harassment
@@ -647,7 +731,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               The criminal prosecution procedure in India follows the CrPC or
@@ -815,7 +899,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Have you ever read in your readings about 498a on internet forums
@@ -945,7 +1029,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               When you apply for anticipatory bail after receiving notice of
@@ -1158,7 +1242,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Any judge who grants you (or anyone else) bail has –when passing
@@ -1347,7 +1431,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Any judge who grants you (or anyone else) bail has –when passing
@@ -1531,7 +1615,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Like most things in life, there is an ever present duality in the
@@ -1759,7 +1843,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               If you feel that your dowry case is bad and is causing you to make
@@ -1890,7 +1974,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               There are many variations of a commonly heard saying in India
@@ -2326,7 +2410,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br /> Men who face cruelty from their wives, and then decide to
               take legal steps to end that cruelty have to follow the path
@@ -2494,7 +2578,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br /> The Bar Council of India has finally allowed lawyers to
               advertise their services on the internet in this era of
@@ -2690,7 +2774,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br /> A common phenomenon during 498a/DV litigation is that the
               wife leaves her matrimonial home and starts to live in some other
@@ -2789,7 +2873,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br /> It is fairly common for highly educated men or men with
               technical qualifications or computer engineers aka techies and
@@ -3022,7 +3106,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               There is a provision in law which is called &quot;dowry
@@ -3208,7 +3292,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Hinduism is widely accepted as the oldest religion in the world.
@@ -3446,7 +3530,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Marriage systems and traditions were established in ancient India
@@ -3707,7 +3791,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Yagyavalkya or Yajnavalkya was a rishi who was born in the Dwapar
@@ -3819,7 +3903,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Muslim rule in India was marked mostly by oppression of the
@@ -3941,7 +4025,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               India has practically never attacked any country in more than 5000
@@ -4147,7 +4231,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               England in the eighteenth century was a society which was a
@@ -4351,7 +4435,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Lawmaking was a process which was inherent to the system which the
@@ -4551,7 +4635,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Lord Cornwallis, the Governor General of Bengal promulgated the
@@ -4683,7 +4767,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />A few months earlier, the Indian Succession Act of 1865 had
               set into law the inheritability of husband&apos;s property or
@@ -4824,7 +4908,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               The Married Women&apos;s Property Act was promulgated in 1874.
@@ -4944,7 +5028,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Many laws relating to and/or affecting marriages and marital
@@ -5102,7 +5186,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               The Hindu Disposition of Property Act of 1916 permitted the
@@ -5279,7 +5363,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               1) Create a society in which nobody wants to pay any amount more
@@ -5445,7 +5529,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               1) Do not lose your nerve. Stay healthy and start going for a walk
@@ -5529,7 +5613,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               Okay, this is slightly autobiographical. The health part appears
@@ -5744,7 +5828,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               <br />
               &quot;To love is wonderful, but being loved is what it&apos;s all
@@ -6185,7 +6269,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               It happens to the best of us. Getting dumped is a rite of passage
               for some, and an all too familiar, uncomfortable &quot;oops, it
@@ -6379,7 +6463,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               The Public Information Officer (PIO),ID No. (For official use) RTI
               Cell, SPUWAC, Nanak Pura Delhi Name of Applicant — Manish Udar
@@ -6463,7 +6547,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Have you ever been in a relationship where you felt that you need
               to do your work and other activities first, and then organize to
@@ -6615,7 +6699,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Woman Inspector, Police Station Car Nicobar, Car Nicobar, Tehsil
               Car Nicobar, Nicobar District, Phone 03192-265242 R N Mishra, SHO,
@@ -7748,7 +7832,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               When a 498a complaint is made by a genuinely aggrieved wife, or by
               a wife who is making a false complaint to extract money or to
@@ -7935,7 +8019,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               1) Mrs. 498a d/o such and such r/o such and such and/or her family
               members shall have no claim in the present and future on the whole
@@ -7997,7 +8081,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               {" "}
               BEFORE THE CAW CELL NANAKPURA, NEW DELHI (PRE-LITIGATIVE)
@@ -8090,7 +8174,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Michael is a very close friend of mine in New Zealand. He is half
               Irish or Scottish (I forget which) and half Maori. He has a short
@@ -8277,7 +8361,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               A quick divorce is the holy grail of the Hindu matrimonial
               litigant. Like the real/fabled Holy Grail, it is a bit elusive. A
@@ -8470,7 +8554,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               A small cross-section of legal experts have been known to hold
               that laws need to be made only for those problems which plague
@@ -8586,7 +8670,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               If your wife has left you for unexplained reasons, you might wish
               to consider making a pre-emptive complaint against her at your
@@ -8653,7 +8737,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               {" "}
               Provide Information within 48 hours as per Section 7 of RTI Act
@@ -8687,7 +8771,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               {" "}
               Provide Information within 48 hours as per Section 7 of RTI Act
@@ -8722,7 +8806,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               {" "}
               Provide Information within 48 hours as per Section 7 of RTI Act
@@ -8764,7 +8848,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               You will note that the list of items is very long and unrealistic.
               You are not the only one who notices this fact. Text of the list
@@ -8817,7 +8901,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               This list is tricky in this writer&apos;s opinion because it uses
               unclear language and mixes gifts given by parents and in-laws into
@@ -8871,7 +8955,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Full form of F.I.R. Top of Page The abbreviation F.I.R. means
               First Information Report. This is the term used to describe a
@@ -9378,7 +9462,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               This is an example of a typical complaint made by a 498a wife to
               the CAW Cell. Such complaints are usually transformed into FIRs
@@ -9527,7 +9611,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               I could not have any personal conversation with my husband since
               whatever we discussed he used to tell everything to his mother,
@@ -9649,7 +9733,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Interrogating accused persons is an integral part of police work.
               This is as much applicable to dowry torture accused persons as it
@@ -9802,7 +9886,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               &quot;No arrest can be made in a routine manner on a mere
               allegation of commission of an offence made against a person. It
@@ -9920,7 +10004,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               The police may wish to arrest an accused in a particular criminal
               matter. This desire to arrest can only be justified if it has a
@@ -10068,7 +10152,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Marriage is an interesting theme to explore in a written
               exposition. This writer estimates that on average, people spend
@@ -10234,7 +10318,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               This writer has vast experience in life, and has seen many
               varieties of people. In one of the colleges where he had the good
@@ -10398,7 +10482,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               Once during his extended sojourn in Central Asia, this writer had
               the opportunity to meet an Ingush woman from the Caucasus, and to
@@ -10568,7 +10652,7 @@ const articles = () => {
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
             </div>
           </summary>
-          <div className="px-40 pb-10">
+          <div className="px-40 pb-10 pt-6">
             <p className="flex justify-center ">
               {" "}
               A will should be written in a way which should not leave any scope
