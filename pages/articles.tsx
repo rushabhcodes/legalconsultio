@@ -28,9 +28,9 @@ const articles = () => {
             <p className="flex justify-center ">
               
               Defination-
-              Any matter which is expressed described on any substances by means of letters, figures or remark or by more than neary & which can be used for recording the matter is considered as a document".
+              Any matter which is expressed described on any substances by means of letters, figures or remark or by more than neary & which can be used for recording the matter is considered as a document&quot;.
               <br />
-              The evidence which is confined to the words spoken by mouth is the oral evidence. If oral evidence is worthy of credit, it's sufficient to prove a fact or a title without any documentary evidence but where there forms need to supplement the contention with support of any material evidence which can be produced in court in form of else but statement, anything that is where the documentary evidence steps in.
+              The evidence which is confined to the words spoken by mouth is the oral evidence. If oral evidence is worthy of credit, it&apos;s sufficient to prove a fact or a title without any documentary evidence but where there forms need to supplement the contention with support of any material evidence which can be produced in court in form of else but statement, anything that is where the documentary evidence steps in.
               <br />
               Documentary evidence is in many respects considered
               better than the evidence furnished by witnesses, about there has always been a certain amount of suspicion Documentary Evidence differs considerably from the evidence
@@ -43,15 +43,15 @@ const articles = () => {
               <br />
               Defining Electronic Evidence
               <br />
-              As per section 3 of the Indian Evidence Act, 1872 defines evidence as "Evidence
+              As per section 3 of the Indian Evidence Act, 1872 defines evidence as &quot;Evidence
               <br />
               means & includes: all documents including electronic records produced for the inspection of the court. Such documents are called documentary evidence.
               <br />
-              As perSection 2 (t)  of the Information Technology Act, 2000. "Electronic record" means data, record, data generated, image or Sound stored, received or sent In an electronic form or micro film or computer generated micro fiche.
+              As perSection 2 (t)  of the Information Technology Act, 2000. &quot;Electronic record&quot; means data, record, data generated, image or Sound stored, received or sent In an electronic form or micro film or computer generated micro fiche.
               <br />
               The condition of section 65(B):
               <br />
-              Information was produced during the regular course of activitie by the person having or lawful control over the computer's use. Information has been regulaty fed into the computer in the ordinary course of said activities.
+              Information was produced during the regular course of activitie by the person having or lawful control over the computer&apos;s use. Information has been regulaty fed into the computer in the ordinary course of said activities.
               Throughout the material part of the said period, the computer was operating properly or the improper operation as not such as to affect the electronic record of the accuracy of its content. Information contained in the electronic records reproduces or is derived from such Information fed into the computer in the ordinary course of activities.
               <br />
               The Primary purpose is to sanctify proof by secondary. This facility of evidence proof by secondary evidence would apply to any computer, output, such output being deemed as a documen. A computer output is a deemed document for the purpose of Proof.
