@@ -30,7 +30,7 @@ const articles = () => {
 
             <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}><strong><span style={{ color: 'rgb(0, 0, 0)', fontSize: '13px' }}>Separation of trials: Key legal and practical issues</span></strong></p>
             <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}>&nbsp;</p>
-            <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}><strong><span style={{ color: 'rgb(0, 0, 0)', fontSize: '13px' }}>Absconding accused persons are the worst problem for investigating agencies and courts alike. In case the accused person is absconding from an ongoing trial, the law provides that such person's trial may be separated, and the others be tried. But this presents practical and legal problems, which are examined in this essay.&nbsp;</span></strong></p>
+            <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}><strong><span style={{ color: 'rgb(0, 0, 0)', fontSize: '13px' }}>Absconding accused persons are the worst problem for investigating agencies and courts alike. In case the accused person is absconding from an ongoing trial, the law provides that such person&apos;s trial may be separated, and the others be tried. But this presents practical and legal problems, which are examined in this essay.&nbsp;</span></strong></p>
             <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}>&nbsp;</p>
             <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}><strong><span style={{ color: 'rgb(0, 0, 0)', fontSize: '13px' }}>I. Introduction&nbsp;</span></strong></p>
             <p style={{ textAlign: 'justify', color: 'rgb(0, 0, 0)', fontSize: '12px' }}>&nbsp;</p>
