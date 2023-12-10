@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import BackgroundSlider from "@/components/BackgroundSlider";
 import Footer from "@/components/Footer";
 import BankingPartners from "@/components/BankingPartners";
-import Intern from "@/components/Intern";
+// import Intern from "@/components/Intern";
 import MyModal from "@/components/Practice";
 import React from "react";
 import { hasCookie, setCookie } from "cookies-next";
@@ -41,7 +41,7 @@ export default function Home({ data }: { data: any }) {
         <BackgroundSlider />
         <MyModal />
         <BankingPartners />
-        <Intern />
+        {/* <Intern /> */}
         <Footer />
       </main>
     );
@@ -125,7 +125,7 @@ export default function Home({ data }: { data: any }) {
         <BackgroundSlider />
         <MyModal />
         <BankingPartners />
-        <Intern />
+        {/* <Intern /> */}
         <Footer />
       </main>
     </>);

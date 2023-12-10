@@ -10,7 +10,7 @@ const BankingPartners = () => {
           Our Banking Partners
         </h1>
       </div>
-      <div className="grid lg:grid-cols-2 gap-10">
+      <div className="grid lg:grid-cols-2 gap-10 pb-24 md:pb-0">
         <ICICIModal />
         <AXISModal />
       </div>

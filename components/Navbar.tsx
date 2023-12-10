@@ -46,26 +46,26 @@ const Navbar = () => {
             />
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link href="/">Home</Link>
             </motion.div>
           </li>
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link href="/courtAndForums">Court and Forums</Link>
             </motion.div>
           </li>
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link href="/articles">Articles</Link>
             </motion.div>
           </li>
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <Popover className="relative">
               <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
                 <Popover.Button>
-                  <div className="">Judgement</div>
+                  <div className="lg:text-xl">Judgement</div>
                 </Popover.Button>
               </motion.div>
               <Popover.Panel className="absolute z-10 left-0 -m-3">
@@ -97,12 +97,12 @@ const Navbar = () => {
               </Popover.Panel>
             </Popover>
           </li>
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link href="/about">About Us</Link>
             </motion.div>
           </li>
-          <li className="p-4">
+          <li className="p-4 lg:text-xl">
             <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
               <Link href="/contact">Contact Us</Link>
             </motion.div>
