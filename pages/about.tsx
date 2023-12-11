@@ -114,7 +114,9 @@ function AboutPage({ data }: { data: PostsData }) {
         </div>
       ))}
 
-      <div className="flex justify-center pt-10">
+
+     {/*  
+     <div className="flex justify-center pt-10">
         <h1 className="font-bold text-center text-6xl p-10 pb-10">Our Team</h1>
       </div>
 
@@ -166,6 +168,8 @@ function AboutPage({ data }: { data: PostsData }) {
           </div>
         </div>
       ))}
+      */}
+
       <Footer />
     </>
   );
