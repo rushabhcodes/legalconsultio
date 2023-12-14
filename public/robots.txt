@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://legalconsultio.com
+
+# Sitemaps
+Sitemap: https://legalconsultio.com/sitemap.xml
