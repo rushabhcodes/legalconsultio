@@ -9776,7 +9776,8 @@ const articles = () => {
         <details className="bg-white shadow rounded group mb-4">
           <summary className="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus:ring focus:ring-gray-600 rounded group-open:rounded-b-none group-open:z-[1] relative">
             <h3 className="flex flex-1 p-4 font-bold justify-center">
-              Interrogation and Investigation by the Police in Dowry Cases
+            Maintenance under section 125 of CrPC
+
             </h3>
             <div className="flex w-10 item-cenmter justify-center ">
               <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
@@ -9784,142 +9785,104 @@ const articles = () => {
           </summary>
           <div className="px-10 md:px-40 pb-10 pt-6">
             <p className="flex justify-center ">
-              Interrogating accused persons is an integral part of police work.
-              This is as much applicable to dowry torture accused persons as it
-              is to those under any other criminal law. However remember that
-              the police is not all powerful. Police work in criminal matters is
-              carried out totally under the supervision of the courts, even
-              though the police is de jure a subordinate organ of the executive.
-              They cannot throw their weight around, and the number of policemen
-              who face disciplinary and legal action every year is quite large.
-              Remember that the courts are not there just to punish criminals.
-              It is their job to protect the human, fundamental, and legal
-              rights of all citizens, including criminals. One good thing about
-              our country is that there is rule of law here. It is a different
-              matter that the laws are sometimes bad and/or applied selectively.
-              Such things can be resolved by an alert citizenry with time.
-              Coming back to the police. They are bound by the law of the land
-              as much as you and I. There are many things which you ought to
-              know when dealing with the police, because this is one department
-              which has a lot of potential for black sheep. One thing which you
-              must remember is that you are going to be dealing with people who
-              are not very high up in the hierarchy. So they are not going to be
-              all-powerful people even within their town police department,
-              leave alone the state level. This is a good thing because there
-              will always be a number of higher officers to whom you can
-              complain about the behaviour of the people who are working on your
-              case, in case you feel that they are doing illegal things. The
-              first important thing is that you have the right to a lawyer.
-              There will be people who will tell you that you have no such right
-              in India, and that this is an American concept. They are probably
-              under this impression because when they see Indian movies in which
-              the police arrests someone, all they say is &quot;You are under
-              arrest&quot; while the American policeman says &quot;You have the
-              right to remain silent. You have the right to an attorney.
-              Anything you say can and will be held against you.&quot; This
-              gives common people the impression that there are no rights for
-              people who are arrested, in India. Nothing can be farther from the
-              truth. The second right that you have is that the police cannot
-              enter your house at any time they wish to come. They have to get
-              an order from a higher officer before they can go to
-              anybody&apos;s house. They only have the right to visit houses in
-              connection with any investigation or administrative work or to
-              apprehend fugitives from the law. They cannot enter a house during
-              any time except daytime if they are visiting in connection with a
-              criminal investigation. They cannot enter when a woman is alone in
-              the house. They cannot enter without a woman officer if they have
-              to talk to a woman. If a woman is in purdah then they have to wait
-              outside until she gets suitably attired. They cannot enter the
-              portions of the house which are reserved for women amongst certain
-              groups of people. The police cannot demand even a glass of water
-              or a chair from the resident of the house. They have to bring some
-              respectable members of the locality with them if they are coming
-              to visit for a search and seizure task. You are probably aware of
-              the Anglo-Saxon concept of a man&apos;s house being his castle.
-              Although the law in India is not as protective of a man vis-à-vis
-              his home as in those countries, still there are a number of
-              provisions in this respect. The third right which you have is the
-              right to have a lawyer of your choice to represent you. It is not
-              clear to this writer whether people in India have an absolute
-              right to have a lawyer of their choice, but one thing which is
-              certain is that this right definitely exists if the accused person
-              is willing to pay the fees of such a lawyer. The lawyer can
-              represent you in court as well as be with you while you are being
-              interrogated. You can consult the lawyer from time to time during
-              the questioning according to some writers. Others say that the
-              lawyer can be present during the whole of the interrogation but he
-              cannot dictate answers to you. Your lawyer can help you to avoid
-              illegal lines of questioning. The police have no right to ask you
-              questions whose answers may amount to your incriminating yourself.
-              They also do not have the right to force you to undergo a marathon
-              interrogation session. Remember that every country in the world
-              which wishes to be counted amongst civilised countries has a right
-              against self-incrimination in its law. This is the single most
-              Important right in criminal law, and is a fundamental right,
-              recognised under Article 21 of the Indian Constitution, as a part
-              of the right to life. You cannot be forced to confess to any crime
-              which you might have committed. Confessions made before the police
-              are not admissible in court at all. This can be circumvented by
-              the police if they are able to make some recoveries on the basis
-              of a confession, but such things happen only in very very serious
-              matters. If a confession has to be made, it is made before a
-              judge, and there can be NO police custody for any accused after he
-              is brought before a judge for his confession statement, which he
-              may make or may refuse to make. The accused is sent straight to
-              judicial custody after such a court appearance. Further, the
-              police cannot call your mother or your sister to the police
-              station for interrogation. This is not allowed under the law. They
-              have to go to the house of all accused persons who have not yet
-              reached 15 years of age or who are members of the female gender.
-              Any questioning of ladies can be done only in the presence of
-              their male relatives, and women can only be searched by women.
-              Further, a woman can only be brought to a police station if she
-              has been formally arrested. However, policemen are terribly scared
-              of bringing any woman to a police station under any circumstances
-              whatsover. Bear in mind that if a woman accuses a policeman of
-              raping her in a police station, then he has practically no escape
-              from a conviction and subsequent life in prison. This is because
-              the law specifies a presumption of guilt in the case of a
-              custodial rape accusation. The punishment for custodial rape is
-              the same as that for gang rape, that is to say, not less than 20
-              years in jail. There are a important Supreme Court and High Court
-              decisions which protect accused persons to an extent and in a
-              manner which has very satisfactorily bolstered the intent inherent
-              in legislated statute. One such is Nandini Satpathy vs. P.l. Dani
-              case judgement, delivered by a full bench of the Supreme Court in
-              1978. The three judges made several germane remarks in their
-              detailed judgement. Some examples are &quot;Art. 20(3) is not a
-              paper tiger but a provision to police the police and to silence
-              coerced crimination.&quot;, &quot;But we confess that the
-              statement of the State calls to mind the words of Hamlet :
-              &quot;The lady protests too much, methinks.&quot;&quot; and
-              &quot;&apos;Compelled testimony&apos; must be read as evidence
-              procured not merely by physical threats or violence, but by
-              psychic torture, atmospheric pressure, environmental coercion
-              tiring interrogative prolixity, overbearing and intimidatory
-              methods and the like –not legal penalty for violation. So the
-              legal perils following upon refusal to answer or answer truthfully
-              cannot be regarded as compulsion within the meaning of Art. 20(3).
-              The prospect of prosecution may lead to legal tension in the
-              exercise of a constitutional right, but then, a stance of silence
-              is running a calculated risk. On the other hand, if there is any
-              mode of pressure, subtle or crude, mental or physical, direct or
-              indirect, but sufficiently substantial, applied by the policeman
-              for obtaining information from an accused strongly suggestive of
-              guilt it becomes compelled testimony violative of Art. 20(3)&quot;
-              This last remark is a very broad and satisfactory definition of
-              compelled testimony. If you are called for interrogation by the
-              police, all you need to know in order to protect your rights is
-              this definition of compelled testimony, and nothing more. Article
-              20(3) of the Constitution lays down clearly that &quot;No person
-              accused of any offence shall be compelled to be a witness against
-              himself.&quot; This statement has been interpreted by the
-              judiciary in a very positive way, and as a result bans on torture,
-              beating, and coercive questioning have been reiterated. The right
-              to a lawyer, to not be questioned using a lie-detector or via
-              narco-analysis, as well as the right to refuse to answer questions
-              which are of the nature of a demand for a confession are all
-              rights which are derived from this article of the Constitution.
+home-iconmain headlineslatest newsSupreme CourtHigh Courtconsumer affairsKnow our lawVideoround upOther
+Home >  Know our law >  Under Section 125 of CrPC...
+Maintenance under section 125 of CrPC
+By - Himanshu MishraUpdate: 2024-02-21 03:30 GMT
+Maintenance under section 125 of CrPC
+
+Section 125 of the Code of Criminal Procedure is one of the most used and discussed provisions of the Code. This Code provides that no person who has sufficient means to maintain himself can refuse to provide maintenance to his wife, children and parents, if they are capable of maintaining themselves. Are not. However, sometimes the husband, against whom the maintenance order is passed, may not be satisfied with the decision given by the lower court and hence, he must have a forum where he can put forth his grievances against the order.
+Scope and applicability of Section 125 CrPC
+
+Section 125 of the Code of Criminal Procedure provides for maintenance of wife, children and parents. After the parties have invoked Section 125 of the Code, the court can order the respondent, i.e. the husband, to maintain the wife who is unable to maintain herself by providing monthly maintenance.
+
+However, there is an exception to the provision. For the purpose of providing maintenance to the wife, the husband must be capable enough to maintain his wife after separation and at the same time, the wife must not live in adultery or leave her husband without any sufficient cause. One should not live apart. Even if they are living separately with mutual consent, the wife will not be entitled to any kind of maintenance. Whenever the judgment is pronounced in favor of the wife, the court has to ensure that the husband has sufficient means to provide maintenance to the wife. The court will also have to ensure that the wife does not have sufficient funds to maintain herself after separation.
+
+Under Section 125 of the Code, the provision of interim maintenance is available, which means that during the pendency of an application in the court, an order can be passed by the Magistrate requiring the husband to pay monthly maintenance to the wife. Instructions can be given. However, the Magistrate is empowered to vary the amount of maintenance to be paid if he feels that there is any change in the circumstances of the person paying or receiving the monthly allowance.
+What comes under the definition of wife?
+
+The wife can be of any age – minor or adult. For the purposes of section 125 'wife' means a legally married woman. The validity of the marriage will be governed by the personal laws applicable to the parties. If the fact of a legally valid marriage is disputed, the applicant must prove the marriage. Marriages performed by garlanding each other were declared invalid.
+
+Under Section 125(1)(a) of the Code, maintenance allowance cannot be given to every wife who is neglected by her husband or whose husband refuses to maintain her, but only to that wife Can be given to one who is unable to support himself but not. A wife who is supporting herself with some difficulty.
+
+The wife is not entitled to receive allowance from her husband in three cases, namely:
+
+1. If she is living in adultery, or
+
+2. If she refuses to live with her husband without any sufficient reason, or
+
+3. If they are living separately with mutual consent.
+
+Cases in Supreme Court on Section 125 of Criminal Procedure Code
+
+Mohd. Ahmed Khan v. In Shah Bano Begum case it has been declared that a Muslim husband of sufficient means should provide maintenance to his divorced wife who is unable to maintain herself. Such a wife is entitled to maintenance even if she refuses to live with the Muslim husband because he has married another woman within the limit of four wives given by the Quran.
+
+A division bench of the Supreme Court declared that a Muslim divorced woman who cannot maintain herself is entitled to receive maintenance from her former husband until she remarries.
+
+He rejected the argument that alimony is payable only for the Iddat period. Pointing to Quranic verses, the judges declared that the Quran obliges the divorced wife to pay maintenance.
+
+Objective of Section 125 of CrPC K. Vimal v. This was explained in the case of K. Veeraswamy, where it was held that Section 125 of the Code was introduced to achieve a social objective. The purpose of this section is to provide welfare to the wife by providing her necessary shelter and food after separation from her husband.
+
+Vikas v. In the case of State of Uttar Pradesh, the Supreme Court had said that all such applications for maintenance can be filed in any district where the person making the payment resides or where the wife resides or where the person resides. Lived with his wife or mother or illegitimate child. The purpose of Section 125 of CrPC is to achieve a social objective in the society.
+            </p>
+          </div>
+        </details>
+      </div>
+      <div className="container mx-auto p-4">
+        <details className="bg-white shadow rounded group mb-4">
+          <summary className="list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus:ring focus:ring-gray-600 rounded group-open:rounded-b-none group-open:z-[1] relative">
+            <h3 className="flex flex-1 p-4 font-bold justify-center">
+          
+            Scope and importance of interrogation of accused under section 313 of CrPC: 
+
+            </h3>
+            <div className="flex w-10 item-cenmter justify-center ">
+              <div className="border-8 border-transparent border-l-gray-600 ml-2 group-open:rotate-90 transition-transform origin-left  "></div>
+            </div>
+          </summary>
+          <div className="px-10 md:px-40 pb-10 pt-6">
+            <p className="flex justify-center ">
+
+home-iconmain headlineslatest newsSupreme CourtHigh Courtconsumer affairsKnow our lawVideoround upall high courts
+Home >  Know our law >  Under Section 313 of CrPC...
+Scope and importance of interrogation of accused under section 313 of CrPC
+By - Himanshu MishraUpdate: 2024-03-17 05:00 GMT
+Scope and importance of interrogation of accused under section 313 of CrPC
+
+Interrogation of the accused is of utmost importance in the field of criminal trials. This is an important step towards upholding the principles of natural justice, thereby ensuring that no person remains unheard. Section 313 of the Code of Criminal Procedure, 1973, describes the power of the trial court to examine the accused and provide them an opportunity to explain the evidence presented against them.
+Objectives and objectives of interrogating the accused:
+
+The primary objective of interrogating the accused under Section 313 is to give them an opportunity to explain in person any circumstances emerging from the evidence against them. This process serves to clarify the precise charges that the accused must face, thereby promoting fairness and transparency in judicial proceedings.
+
+The examination is not a mere formality; Rather, it is conducted in the interest of justice. Although the court has the discretion to interrogate the accused at any stage of the investigation, it is mandatory to do so after the evidence has been presented. This ensures that the accused is given a fair opportunity to respond to incriminating material presented during the trial.
+
+Considerations during the exam:
+
+While interrogating the accused, the trial court must take into account several factors. Questions should be formulated based on the evidence presented by the prosecution witnesses, focusing on the incriminating evidence. It is necessary to write the questions clearly and logically, keeping in mind the socio-economic and educational background of the accused. Care should be taken especially in the case of poor or illiterate accused persons, to ensure that they understand and respond effectively.
+
+Each accused should be interrogated separately, as their role and involvement may be different. This approach helps in thorough investigation and prevents ambiguity. Furthermore, the accused is not forced to speak; They have the right to remain silent, as guaranteed by the Constitution. However, their refusal to answer may lead to adverse inferences.
+
+Terms used under Section 313 of CrPC
+
+Accused: The term “accused” refers to someone who is being interrogated by the court during a trial. The accused in any other case is not included in this.
+
+In person: This means that the accused gets a chance to explain things based on the evidence presented during the trial, especially during cross-examination by his lawyer.
+
+At any stage: The court can interrogate the accused at any time during the trial, even before formal charges are filed. The court should present all the evidence before the accused and seek their response.
+
+Opportunity to Explain: The accused has the option to explain or not to explain against the evidence presented. The court should bring out all the incriminating evidence and seek response from the accused. If certain circumstances are not revealed, they cannot be used against the accused.
+
+Multiple Examinations: The court may call the accused for questioning more than once, but this should not be done regularly. If new evidence or witnesses come to light after the initial investigation, the accused should be interrogated again.
+
+Guidelines for Effective Examination:
+
+The language of Section 313 is clear and unambiguous, emphasizing the objective of enabling the accused to explain the circumstances against them. Each answer should be recorded separately, and no key point should be omitted during questioning.
+
+Examples when examination is not necessary:
+
+Although in most cases it is important to interrogate the accused, there are some exceptions. If the evidence reveals no incriminating circumstances, or if the accused has already pleaded guilty, the examination may not be necessary. Similarly, when the accused has accepted the charges, further inquiry is not necessary.
+
+Interrogation of the accused under Section 313 of the Code of Criminal Procedure serves as the cornerstone of fair trial procedures. It gives the accused the right to address the evidence against them, ensures transparency and maintains the principles of natural justice. However, it is necessary for the courts to conduct this test diligently, considering the individual circumstances of each case, to prevent any miscarriage of justice.
             </p>
           </div>
         </details>
