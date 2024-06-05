@@ -9795,7 +9795,7 @@ However, there is an exception to the provision. For the purpose of providing ma
 Under Section 125 of the Code, the provision of interim maintenance is available, which means that during the pendency of an application in the court, an order can be passed by the Magistrate requiring the husband to pay monthly maintenance to the wife. Instructions can be given. However, the Magistrate is empowered to vary the amount of maintenance to be paid if he feels that there is any change in the circumstances of the person paying or receiving the monthly allowance.
 What comes under the definition of wife?
 
-The wife can be of any age – minor or adult. For the purposes of section 125 'wife' means a legally married woman. The validity of the marriage will be governed by the personal laws applicable to the parties. If the fact of a legally valid marriage is disputed, the applicant must prove the marriage. Marriages performed by garlanding each other were declared invalid.
+The wife can be of any age – minor or adult. For the purposes of section 125 wife means a legally married woman. The validity of the marriage will be governed by the personal laws applicable to the parties. If the fact of a legally valid marriage is disputed, the applicant must prove the marriage. Marriages performed by garlanding each other were declared invalid.
 
 Under Section 125(1)(a) of the Code, maintenance allowance cannot be given to every wife who is neglected by her husband or whose husband refuses to maintain her, but only to that wife Can be given to one who is unable to support himself but not. A wife who is supporting herself with some difficulty.
 
