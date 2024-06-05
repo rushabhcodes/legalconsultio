@@ -9785,12 +9785,6 @@ const articles = () => {
           </summary>
           <div className="px-10 md:px-40 pb-10 pt-6">
             <p className="flex justify-center ">
-home-iconmain headlineslatest newsSupreme CourtHigh Courtconsumer affairsKnow our lawVideoround upOther
-Home >  Know our law >  Under Section 125 of CrPC...
-Maintenance under section 125 of CrPC
-By - Himanshu MishraUpdate: 2024-02-21 03:30 GMT
-Maintenance under section 125 of CrPC
-
 Section 125 of the Code of Criminal Procedure is one of the most used and discussed provisions of the Code. This Code provides that no person who has sufficient means to maintain himself can refuse to provide maintenance to his wife, children and parents, if they are capable of maintaining themselves. Are not. However, sometimes the husband, against whom the maintenance order is passed, may not be satisfied with the decision given by the lower court and hence, he must have a forum where he can put forth his grievances against the order.
 Scope and applicability of Section 125 CrPC
 
@@ -9842,12 +9836,6 @@ Vikas v. In the case of State of Uttar Pradesh, the Supreme Court had said that 
           </summary>
           <div className="px-10 md:px-40 pb-10 pt-6">
             <p className="flex justify-center ">
-
-home-iconmain headlineslatest newsSupreme CourtHigh Courtconsumer affairsKnow our lawVideoround upall high courts
-Home >  Know our law >  Under Section 313 of CrPC...
-Scope and importance of interrogation of accused under section 313 of CrPC
-By - Himanshu MishraUpdate: 2024-03-17 05:00 GMT
-Scope and importance of interrogation of accused under section 313 of CrPC
 
 Interrogation of the accused is of utmost importance in the field of criminal trials. This is an important step towards upholding the principles of natural justice, thereby ensuring that no person remains unheard. Section 313 of the Code of Criminal Procedure, 1973, describes the power of the trial court to examine the accused and provide them an opportunity to explain the evidence presented against them.
 Objectives and objectives of interrogating the accused:
