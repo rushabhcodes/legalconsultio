@@ -98,8 +98,8 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="flex justify-center p-10 shadow-2xl rounded-full">
               <Image
                 className="rounded-full"
-                src={person.dp.url}
-                alt={person.dp.fileName}
+                src={person.dp ? person.dp.url : ""}
+                alt={person.dp ? person.dp.fileName: ""}
                 width={300}
                 height={300}
               />
@@ -115,8 +115,8 @@ function AboutPage({ data }: { data: PostsData }) {
       ))}
 
 
-     {/*  
-     <div className="flex justify-center pt-10">
+    {employees.length == 0 ? " <></>" : <>
+   <div className="flex justify-center pt-10">
         <h1 className="font-bold text-center text-6xl p-10 pb-10">Our Team</h1>
       </div>
 
@@ -140,8 +140,9 @@ function AboutPage({ data }: { data: PostsData }) {
             </div>
           </div>
         </div>
-      ))}
-
+      ))} 
+      </>}
+      {interns.length == 0 ? " <></>" : <>
       <div className="flex justify-center pt-10">
         <h1 className="font-bold text-center text-6xl p-10 pb-10">
           Our Interns
@@ -153,8 +154,8 @@ function AboutPage({ data }: { data: PostsData }) {
             <div className="flex justify-center p-10 shadow-2xl rounded-full">
               <Image
                 className="rounded-full"
-                src={person.dp.url}
-                alt={person.dp.fileName}
+                src={person.dp ? person.dp.url :""}
+                alt={person.dp ?person.dp.fileName : ""}
                 width={300}
                 height={300}
               />
@@ -167,8 +168,8 @@ function AboutPage({ data }: { data: PostsData }) {
             </div>
           </div>
         </div>
-      ))}
-      */}
+      ))}  </>}
+      
 
       <Footer />
     </>
