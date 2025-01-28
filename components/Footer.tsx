@@ -130,7 +130,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="bg-slate-950 text-gray-400">
+      {/* <div className="bg-slate-950 text-gray-400">
         <div className="flex justify-center pb-2">
           Developed and managed by
           <Link href="https://www.techstepsservices.com">
@@ -139,7 +139,7 @@ const Footer = () => {
 
 
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
