@@ -38,12 +38,12 @@ const Navbar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <Image
-              src="/logos/Legalconsultio.png"
-              alt="Legalconsultio"
-              width={75}
-              height={75}
-              priority
-            />
+            src="/logos/Legalconsultio.png"
+            alt="Legalconsultio"
+            width={75}
+            height={75}
+            priority
+          />
         </Link>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4 lg:text-xl">
@@ -72,9 +72,9 @@ const Navbar = () => {
                 <div className="p-5"></div>
                 <div className="justify-center border border-black">
                   <div style={{
-        backgroundColor: `${color}`,
-        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
-      }} className="bg-black pt-2 py-2 px-12">
+                    backgroundColor: `${color}`,
+                    background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                  }} className="bg-black pt-2 py-2 px-12">
                     <motion.div
                       whileHover={{ scale: 1.2 }}
                       whileTap={{ scale: 0.8 }}
@@ -83,9 +83,9 @@ const Navbar = () => {
                     </motion.div>
                   </div>
                   <div style={{
-        backgroundColor: `${color}`,
-        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
-      }} className="bg-black pb-2 py-2 px-12">
+                    backgroundColor: `${color}`,
+                    background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                  }} className="bg-black pb-2 py-2 px-12">
                     <motion.div
                       whileHover={{ scale: 1.2 }}
                       whileTap={{ scale: 0.8 }}
@@ -93,6 +93,29 @@ const Navbar = () => {
                       <Link href="/138">138</Link>
                     </motion.div>
                   </div>
+                  <div style={{
+                    backgroundColor: `${color}`,
+                    background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                  }} className="bg-black pt-2 py-2 px-12">
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <Link href="/BNS">BNS</Link>
+                    </motion.div>
+                  </div>
+                  <div style={{
+                    backgroundColor: `${color}`,
+                    background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                  }} className="bg-black pt-2 py-2 px-12">
+                    <motion.div
+                      whileHover={{ scale: 1.2 }}
+                      whileTap={{ scale: 0.8 }}
+                    >
+                      <Link href="/BNSS">BNSS</Link>
+                    </motion.div>
+                  </div>
+
                 </div>
               </Popover.Panel>
             </Popover>
@@ -172,40 +195,65 @@ const Navbar = () => {
               </motion.div>
             </li>
             <li>
-            <Popover className="relative">
-              <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-                <Popover.Button>
-                  <div className="text-2xl"><p> {'>'} Judgement</p></div>
-                </Popover.Button>
-              </motion.div>
-              <Popover.Panel className="absolute z-10 left-14">
-                <div className="p-5"></div>
-                <div className="justify-center border border-black">
-                  <div style={{
-        backgroundColor: `${color}`,
-        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
-      }} className="bg-black pt-2 py-2 px-12">
-                    <motion.div
-                      whileHover={{ scale: 1.2 }}
-                      whileTap={{ scale: 0.8 }}
-                    >
-                      <Link href="/DV">DV</Link>
-                    </motion.div>
+              <Popover className="relative">
+                <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+                  <Popover.Button>
+                    <div className="text-2xl"><p> {'>'} Judgement</p></div>
+                  </Popover.Button>
+                </motion.div>
+                <Popover.Panel className="absolute z-10 left-14">
+                  <div className="p-5"></div>
+                  <div className="justify-center border border-black">
+                    <div style={{
+                      backgroundColor: `${color}`,
+                      background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                    }} className="bg-black pt-2 py-2 px-12">
+                      <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                      >
+                        <Link href="/DV">DV</Link>
+                      </motion.div>
+                    </div>
+                    <div style={{
+                      backgroundColor: `${color}`,
+                      background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                    }} className="bg-black pb-2 py-2 px-12">
+                      <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                      >
+                        <Link href="/138">138</Link>
+                      </motion.div>
+                    </div>
+
+                    <div style={{
+                      backgroundColor: `${color}`,
+                      background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                    }} className="bg-black pb-2 py-2 px-12">
+                      <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                      >
+                        <Link href="/BNS">BNS</Link>
+                      </motion.div>
+                    </div>
+
+                    <div style={{
+                      backgroundColor: `${color}`,
+                      background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
+                    }} className="bg-black pb-2 py-2 px-12">
+                      <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                      >
+                        <Link href="/BNSS">BNSS</Link>
+                      </motion.div>
+                    </div>
+
                   </div>
-                  <div style={{
-        backgroundColor: `${color}`,
-        background: `${color === "transparent" ? "rgba(0, 0, 0, 0.4)" : "1"}`,
-      }} className="bg-black pb-2 py-2 px-12">
-                    <motion.div
-                      whileHover={{ scale: 1.2 }}
-                      whileTap={{ scale: 0.8 }}
-                    >
-                      <Link href="/138">138</Link>
-                    </motion.div>
-                  </div>
-                </div>
-              </Popover.Panel>
-            </Popover>
+                </Popover.Panel>
+              </Popover>
             </li>
           </ul>
         </div>
