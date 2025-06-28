@@ -94,81 +94,87 @@ function AboutPage({ data }: { data: PostsData }) {
 
       {founders.map((person) => (
         <div key={person.name}>
-          <div className="grid justify-items-center justify-center justify- grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 px-10 py-10 ">
+          <div className="grid justify-items-center grid-cols-1 lg:grid-cols-2 gap-10 px-10 py-10">
             <div className="flex justify-center p-10 shadow-2xl rounded-full">
               <Image
                 className="rounded-full"
-                src={person.dp ? person.dp.url : ""}
-                alt={person.dp ? person.dp.fileName: ""}
+                src={person.dp?.url || ""}
+                alt={person.dp?.fileName || ""}
                 width={300}
                 height={300}
               />
             </div>
             <div className="py-10">
               <div className="font-bold text-3xl mb-2">{person.name}</div>
-              <p className="text-gray-700 text-base pr-12">
+              <div className="text-gray-700 text-base pr-12">
                 {parse(person.content.html)}
-              </p>
+              </div>
             </div>
           </div>
         </div>
       ))}
 
 
-    {employees.length == 0 ? " <></>" : <>
-   <div className="flex justify-center pt-10">
-        <h1 className="font-bold text-center text-6xl p-10 pb-10">Our Team</h1>
-      </div>
+      {employees.length > 0 && (
+        <>
+          <div className="flex justify-center pt-10">
+            <h1 className="font-bold text-center text-6xl p-10 pb-10">Our Team</h1>
+          </div>
 
-      {employees.map((person) => (
-        <div key={person.name}>
-          <div className="grid justify-items-center justify-center justify- grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 px-10 py-10 ">
-            <div className="flex justify-center p-10 shadow-2xl rounded-full">
-              <Image
-                className="rounded-full"
-                src={person.dp.url}
-                alt={person.dp.fileName}
-                width={300}
-                height={300}
-              />
+          {employees.map((person) => (
+            <div key={person.name}>
+              <div className="grid justify-items-center grid-cols-1 lg:grid-cols-2 gap-10 px-10 py-10">
+                <div className="flex justify-center p-10 shadow-2xl rounded-full">
+                  <Image
+                    className="rounded-full"
+                    src={person.dp?.url || ""}
+                    alt={person.dp?.fileName || ""}
+                    width={300}
+                    height={300}
+                  />
+                </div>
+                <div className="py-10">
+                  <div className="font-bold text-3xl mb-2">{person.name}</div>
+                  <div className="text-gray-700 text-base pr-12">
+                    {parse(person.content.html)}
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="py-10">
-              <div className="font-bold text-3xl mb-2">{person.name}</div>
-              <p className="text-gray-700 text-base pr-12">
-                {parse(person.content.html)}
-              </p>
-            </div>
+          ))}
+        </>
+      )}
+
+      {interns.length > 0 && (
+        <>
+          <div className="flex justify-center pt-10">
+            <h1 className="font-bold text-center text-6xl p-10 pb-10">
+              Our Interns
+            </h1>
           </div>
-        </div>
-      ))} 
-      </>}
-      {interns.length == 0 ? " <></>" : <>
-      <div className="flex justify-center pt-10">
-        <h1 className="font-bold text-center text-6xl p-10 pb-10">
-          Our Interns
-        </h1>
-      </div>
-      {interns.map((person) => (
-        <div key={person.name}>
-          <div className="grid justify-items-center justify-center justify- grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 px-10 py-10 ">
-            <div className="flex justify-center p-10 shadow-2xl rounded-full">
-              <Image
-                className="rounded-full"
-                src={person.dp ? person.dp.url :""}
-                alt={person.dp ?person.dp.fileName : ""}
-                width={300}
-                height={300}
-              />
+          {interns.map((person) => (
+            <div key={person.name}>
+              <div className="grid justify-items-center grid-cols-1 lg:grid-cols-2 gap-10 px-10 py-10">
+                <div className="flex justify-center p-10 shadow-2xl rounded-full">
+                  <Image
+                    className="rounded-full"
+                    src={person.dp?.url || ""}
+                    alt={person.dp?.fileName || ""}
+                    width={300}
+                    height={300}
+                  />
+                </div>
+                <div className="py-10">
+                  <div className="font-bold text-3xl mb-2">{person.name}</div>
+                  <div className="text-gray-700 text-base pr-12">
+                    {parse(person.content.html)}
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="py-10">
-              <div className="font-bold text-3xl mb-2">{person.name}</div>
-              <p className="text-gray-700 text-base pr-12">
-                {parse(person.content.html)}
-              </p>
-            </div>
-          </div>
-        </div>
-      ))}  </>}
+          ))}
+        </>
+      )}
       
 
       <Footer />

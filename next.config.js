@@ -1,11 +1,15 @@
+// @ts-check
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  /* config options here */
   reactStrictMode: true,
-}
-
-module.exports = {
   images: {
-    domains: ['media.graphassets.com'],
+    remotePatterns: [{
+       hostname: 'ap-south-1.graphassets.com',
+    }]
   },
-  nextConfig
 }
+ 
+module.exports = nextConfig
+
